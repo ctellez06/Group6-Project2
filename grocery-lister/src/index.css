@@ -164,7 +164,7 @@ Variables
   ===============
   */
   .section-center {
-    background: var(--clr-white);
+    background-color: #ffffcc;
     border-radius: var(--radius);
     box-shadow: var(--light-shadow);
     transition: var(--transition);
