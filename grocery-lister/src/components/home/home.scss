@@ -1,6 +1,12 @@
+@import "../../global.scss";
+
 .home {
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: cursive;
 
     .imgContainer {
         width: 700px;

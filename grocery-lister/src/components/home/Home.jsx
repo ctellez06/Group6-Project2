@@ -82,7 +82,7 @@ function Home() {
                     <textarea
                         type='text'
                         className='grocery'
-                        placeholder='e.g. eggs'
+                        placeholder='Enter your item'
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                     />
@@ -95,7 +95,7 @@ function Home() {
         <div className='grocery-container'>
           <List items={list} removeItem={removeItem} editItem={editItem} />
           <button className='clear-btn' onClick={clearList}>
-            clear items
+            delete items
           </button>
         </div>
       )}
