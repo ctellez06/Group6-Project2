@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./home.scss";
-import { FaEdit, FaTrash } from 'react-icons/fa';
+//import { FaEdit, FaTrash } from 'react-icons/fa';
 import List from './List';
 import Alert from './Alert';
 
@@ -87,7 +87,7 @@ function Home() {
                         onChange={(e) => setName(e.target.value)}
                     />
                     <button type='submit' className='submit-btn'>
-            {isEditing ? 'edit' : 'submit'}
+            {isEditing ? 'rename' : 'submit'}
           </button>
         </div>
       </form>
