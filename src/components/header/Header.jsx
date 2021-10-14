@@ -1,5 +1,6 @@
 import "./header.scss";
 import { BsPencilSquare } from "react-icons/bs";
+<BsPencilSquare size={100} style={{ fill: 'black'}} />
 
 export default function Header({ menuOpen, setMenuOpen }) {
   return (
